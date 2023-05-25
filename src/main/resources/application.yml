@@ -1,0 +1,15 @@
+server:
+  port: 8080
+jwt:
+  issuer: 'egor@7bits.it'
+  signingKey: 'talspoc120nxjsapqke1d77'
+  aTokenDuration: 30
+spring:
+  flyway:
+    baselineOnMigrate: true
+  datasource:
+    quizzes:
+      jdbcUrl: jdbc:postgresql://localhost:5432/uhphoto
+      username: uhphoto
+      password: uhphoto_pass
+      driver-class-name: org.postgresql.Driver

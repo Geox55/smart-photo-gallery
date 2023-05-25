@@ -1,0 +1,96 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-02-22T14:27:38.804Z",
+  "__export_source": "insomnia.desktop.app:v2020.4.1",
+  "resources": [
+    {
+      "_id": "req_d130028a7ce841e9bb1679ed4678f5a7",
+      "parentId": "wrk_4b4a5e18471b4b899070df418a30ca95",
+      "modified": 1677076028748,
+      "created": 1677076000037,
+      "url": "http://localhost:8080/books/cade5151-c971-4e3a-96a1-29ce57c0cd03",
+      "name": "get book by id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1677076000037,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_4b4a5e18471b4b899070df418a30ca95",
+      "parentId": null,
+      "modified": 1677075215916,
+      "created": 1677075215916,
+      "name": "Books",
+      "description": "",
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_bb8e45df6a4d481b8e8d178c137eda1d",
+      "parentId": "wrk_4b4a5e18471b4b899070df418a30ca95",
+      "modified": 1677075961338,
+      "created": 1677075895349,
+      "url": "http://localhost:8080/books",
+      "name": "create book",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"1\",\n\t\"bookName\": \"First book\",\n\t\"author\": \"Some author\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_97999666b7354174be107422a6c05d68"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1677075895349,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_b62976036efb40eb981f5bcaee293e15",
+      "parentId": "wrk_4b4a5e18471b4b899070df418a30ca95",
+      "modified": 1677075839457,
+      "created": 1677075827046,
+      "url": "http://localhost:8080/books",
+      "name": "get all books",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1677075827046,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+  ]
+}
